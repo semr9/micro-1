@@ -1,8 +1,8 @@
 pipeline {
     agent{ label "linux"}
-    stage{
+    stages{
         stage('Hello'){
-            steps{
+            steps {
                 echo "hello from Jenkisfile"
             }
         }
